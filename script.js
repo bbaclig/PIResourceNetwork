@@ -1,8 +1,10 @@
 $(document).ready(function() {
     $('.area').mouseenter(function() {
         $(this).animate({
-            height: '+=5px',
-            width: '+=5px'
+            height: '+=6px',
+            width: '+=6px',
+            marginLeft: '-=3px',
+            marginTop: '-=3px'
         });
 	    var target = $(this).attr("id");			
         if (target == 'Tacloban') {
@@ -17,8 +19,10 @@ $(document).ready(function() {
     });
     $('.area').mouseleave(function() {
         $(this).animate({
-            height: '-=5px',
-            width: '-=5px'
+            height: '-=6px',
+            width: '-=6px',
+            marginLeft: '+=3px',
+            marginTop: '+=3px'
         });
         $('p').text("Hover over an area to see its needed resources!");  
     });
