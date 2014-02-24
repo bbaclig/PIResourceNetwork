@@ -1,0 +1,53 @@
+body {
+	background-color: #000000
+}
+
+#PI {
+    background-image: url(http://www.worldofmaps.net/uploads/pics/provinzen_philippinen.png);
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 640px;
+    height: 900px;
+    position:relative;
+}
+
+#PI div:hover {
+    background-color:rgba(255,255,255,0.5);
+}
+
+#infobox {
+    width: 200px;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 20px;
+    border-radius: 5%;
+    position: fixed;
+    background-color:rgba(255,255,255,.1);
+}
+#infobox p {
+    color: white;
+}
+
+#Tacloban{
+    top:540px;
+    left:465px;
+}
+#Guiuan{
+    top:540px;
+    left:500px;
+}
+#Banayan{
+    top:535px;
+    left:400px;
+}
+
+.area {
+    border:1px solid #fff;
+    width:5px;
+    height:5px;
+    border-radius: 100%;
+    /*display:block;*/
+    position:absolute;
+    background-color:rgba(255,255,255,.1);
+}
